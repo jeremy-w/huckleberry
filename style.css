@@ -34,6 +34,8 @@ strong {
 }
 
 .title {
+  font-size: 16pt;
+  margin-bottom: 32px;
 }
 
 .card {
