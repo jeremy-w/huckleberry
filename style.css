@@ -17,6 +17,18 @@ Not super happy about:
 - repeated numbers
 - the way the borders don't seem to be applied with much principle; does main really have a top border, or does the header have a bottom border?
 - mixing colors & positioning; feels like i ought to be able to split those out more logically. (but probably i'm just thinking of / wishing for something like acss.io's helper classes, which can build borders as a function of arguments.)
+
+Reflections after watching the Solution video:
+
+- whoops i totally didn't notice the README - i took the workshop prompt in the course as all the prefatory info i needed to work the challenge!
+  - so i didn't see the colors. that would have been helpful. :grimace:
+  - i also didn't see the sizing, but went with 8px anyway thanks to Material UI defaults. lucky break there.
+  - totally messed up the font size: fixed pt size, bad news! should use rem to key off any user default font size.
+  - by the end, i failed to notice:
+      - the font size was a bit larger for the header paragraphs.
+      - the card title was not fitting content. (i'd played with fixing that earlier, then forgot about it while moving it into place.)
+  - i didn't use the negative margin + positive padding trick as much, because my padding amounts agreed between the intro-chunk and the card, so the text blocks lined up with the padding as-is.
+      - fit-content gotcha: i'd forgotten firefox requires a vendor prefix on fit-content still, so i was confused why it wasn't working, and assumed i'd messed something up. nope! we just don't have autoprefixing wired up in this project.
 */
 
 main {
