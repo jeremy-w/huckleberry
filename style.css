@@ -19,6 +19,10 @@ main {
 }
 
 .max-width-wrapper {
+  max-width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px;
 }
 
 .intro-chunk {
