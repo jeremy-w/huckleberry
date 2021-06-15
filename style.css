@@ -18,6 +18,10 @@ main {
   border-top: 8px solid #5a5a5a;
 }
 
+strong {
+  color: #02b677;
+}
+
 .max-width-wrapper {
   max-width: 512px;
   margin-left: auto;
