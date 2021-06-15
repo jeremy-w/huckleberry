@@ -11,6 +11,13 @@ body {
 }
 
 /* Add styles here! */
+/*
+Not super happy about:
+
+- repeated numbers
+- the way the borders don't seem to be applied with much principle; does main really have a top border, or does the header have a bottom border?
+- mixing colors & positioning; feels like i ought to be able to split those out more logically. (but probably i'm just thinking of / wishing for something like acss.io's helper classes, which can build borders as a function of arguments.)
+*/
 
 main {
   background-color: gray;
