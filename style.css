@@ -48,4 +48,7 @@ strong {
 .indented-heading {
   background: #ffc000;
   border-bottom: 8px solid #b98a00;
+  padding: 32px;
+  margin-left: -32px;
+  margin-top: -8px;
 }
