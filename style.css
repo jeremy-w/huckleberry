@@ -36,6 +36,9 @@ strong {
 }
 
 .card {
+  background-color: white;
+  border-bottom: 8px solid #5a5a5a;
+  padding: 16px;
 }
 
 .indented-heading {
