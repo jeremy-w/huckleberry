@@ -70,4 +70,6 @@ strong {
   padding: 32px;
   margin-left: -32px;
   margin-top: -8px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
