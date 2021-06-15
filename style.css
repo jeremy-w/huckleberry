@@ -7,11 +7,15 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
 
 main {
+  background-color: gray;
+  min-height: 100%;
+  border-top: 8px solid #5a5a5a;
 }
 
 .max-width-wrapper {
